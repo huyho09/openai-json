@@ -15,6 +15,14 @@
     {
       "question": "hello",
       "answer": "Hello there"
+    },
+    {
+      "question": "Hi",
+      "answer": "hi there"
+    },
+    {
+      "question": "what the largest ocean?",
+      "answer": "Pacific Ocean"
     }
   ]
 }
