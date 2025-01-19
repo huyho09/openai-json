@@ -19,6 +19,18 @@
         {
             "question": "What is NPM?",
             "answer": "NPM stands for Node Package Manager. It is a package manager for JavaScript that allows developers to easily reuse and share code and libraries. It is commonly used for managing dependencies in Node.js projects. NPM also allows developers to publish their own packages and install packages created by others."
+        },
+        {
+            "question": "What is VNVC?",
+            "answer": "VNVC stands for \"Venture Non-Venture Capital,\" which refers to startups or companies that operate similarly to venture capital firms but are funded by sources other than traditional venture capital. This could include funding from government grants, corporate partnerships, or non-profit organizations."
+        },
+        {
+            "question": "what is VNVC in Vietnam?",
+            "answer": "VNVC is a pharmaceutical company in Vietnam that specializes in importing, distributing, and marketing vaccines and pharmaceutical products. They are known for their role in bringing vaccines to Vietnam to help prevent diseases and improve public health."
+        },
+        {
+            "question": "What is VNVC in Vietnam?",
+            "answer": "VNVC, which stands for Vietnam Vaccine Joint Stock Company, is a leading vaccine distribution company in Vietnam. Founded in 2010, VNVC is responsible for importing, distributing, and storing vaccines in Vietnam, including vaccines for infectious diseases such as COVID-19. The company plays a crucial role in ensuring the availability and accessibility of vaccines to the Vietnamese population."
         }
     ]
 }
