@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "question": "What is TensorFlow?",
+            "answer": "TensorFlow is an open-source machine learning framework developed by Google."
+        },
+        {
+            "question": "What is OpenAI?",
+            "answer": "OpenAI is an AI research and deployment company aiming to ensure that artificial general intelligence benefits all of humanity."
+        },
+        {
+            "question": "Hello",
+            "answer": "Hello! How can I assist you today?"
+        },
+        {
+            "question": "Hi",
+            "answer": "Hello! How can I assist you today?"
+        },
+        {
+            "question": "What is NPM?",
+            "answer": "NPM stands for Node Package Manager. It is a package manager for JavaScript that allows developers to easily reuse and share code and libraries. It is commonly used for managing dependencies in Node.js projects. NPM also allows developers to publish their own packages and install packages created by others."
+        }
+    ]
+}
