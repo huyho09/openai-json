@@ -10,6 +10,7 @@ This is a project to test OpenAI API and NodeJS openAI framework
 3. Use cli: **npm i**
 4. Use cli: **node server.js**
 5. Start Live Server using **index.html** in front-end folder
+6. Install [Allow CORS: Access-Control-Allow-Origin](https://chromewebstore.google.com/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf)
 
 ### Idea
 
@@ -31,4 +32,7 @@ This approach allows the chatbot to grow and adapt based on user input, enrichin
 - Restructure **json.data** to get the lastest update or random select the answer for one question.
 - Implement Edit button to edit the response instead of using the popup.
 - Implement [t5-base-e2e-qg](https://huggingface.co/valhalla/t5-base-e2e-qg).
-- Rework back-end using Python openAI framework 
+- Rework back-end using Python openAI framework
+
+### Issues and Bugs:
+- Website reload when chatbot responses 
