@@ -35,6 +35,10 @@
         {
             "question": "What is Node?",
             "answer": "Node.js is an open-source, cross-platform runtime environment that allows developers to run JavaScript code outside of a web browser. It is built on Chrome's V8 JavaScript engine and provides a set of libraries that simplify the development of server-side applications. Node.js is commonly used for building web servers, API servers, and real-time applications."
+        },
+        {
+            "question": "Who is Bosch?",
+            "answer": "Bosch is a multinational engineering and technology company headquartered in Germany. It was founded in 1886 by Robert Bosch and is known for its automotive parts, power tools, security systems, and other consumer goods and industrial products. Bosch is one of the largest suppliers of automotive parts in the world and has a presence in over 60 countries."
         }
     ]
 }
