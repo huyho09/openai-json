@@ -23,6 +23,10 @@
     {
       "question": "who is tuan?",
       "answer": "Tuan is a developer"
+    },
+    {
+      "question": "What is Node?",
+      "answer": "Node JS is JS runtime environment"
     }
   ]
 }
