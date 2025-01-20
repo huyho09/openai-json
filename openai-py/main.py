@@ -1,15 +1,19 @@
+import os
+
+# Set proxy environment variables
+os.environ['http_proxy'] = 'http://127.0.0.1:3128'
+os.environ['https_proxy'] = 'http://127.0.0.1:3128'
+
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import json
 import openai
-import os
 
 app = Flask(__name__)
 
 # Allow all CORS
 CORS(app, resources={r"/*": {"origins": "http://127.0.0.1:5500"}})
 
-#openai.api_key = os.getenv("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", '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')
 openai.api_key = os.getenv("OPENAI_API_KEY", 'OPENAI_API_KEY')
 
 # Initial data.json
@@ -39,11 +43,11 @@ def chat():
             return jsonify({"response": entry["answer"]})
     
     # Call OpenAI API if response is not found
-    response = openai.ChatCompletion.create(
+    response = openai.chat.completions.create(
         model="gpt-3.5-turbo",
         messages=[{"role": "user", "content": user_input}]
     )
-    answer = response['choices'][0]['message']['content']
+    answer = response.choices[0].message.content
     
     # Save the response in data.json
     data["data"].append({"question": user_input, "answer": answer})

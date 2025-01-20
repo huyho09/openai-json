@@ -31,6 +31,10 @@
         {
             "question": "What is VNVC in Vietnam?",
             "answer": "VNVC, which stands for Vietnam Vaccine Joint Stock Company, is a leading vaccine distribution company in Vietnam. Founded in 2010, VNVC is responsible for importing, distributing, and storing vaccines in Vietnam, including vaccines for infectious diseases such as COVID-19. The company plays a crucial role in ensuring the availability and accessibility of vaccines to the Vietnamese population."
+        },
+        {
+            "question": "What is Node?",
+            "answer": "Node.js is an open-source, cross-platform runtime environment that allows developers to run JavaScript code outside of a web browser. It is built on Chrome's V8 JavaScript engine and provides a set of libraries that simplify the development of server-side applications. Node.js is commonly used for building web servers, API servers, and real-time applications."
         }
     ]
 }
