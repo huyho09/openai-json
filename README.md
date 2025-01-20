@@ -3,6 +3,13 @@
 
 This is a project to test OpenAI API and NodeJS openAI framework
 
+### Resolve Version Conflict
+
+```
+$env:OPENAI_API_KEY="secret key"
+python==3.11
+```
+
 ### How to run JS Source
 
 1. Open the project folder in VSC
