@@ -15,7 +15,8 @@ This is a project to test OpenAI API and NodeJS openAI framework
 ### How to run Python source
 1. Create venv using conda: **conda env create -f environment.yml**
 2. Using Cli: **python main.py**
-3. Start Live Server using **index.html** inside `openai-py` folder
+3. Install [Allow CORS: Access-Control-Allow-Origin](https://chromewebstore.google.com/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf)
+4. Start Live Server using **index.html** inside `openai-py` folder
 
 ### Idea
 
