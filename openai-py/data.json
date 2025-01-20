@@ -39,6 +39,18 @@
         {
             "question": "Who is Bosch?",
             "answer": "Bosch is a multinational engineering and technology company headquartered in Germany. It was founded in 1886 by Robert Bosch and is known for its automotive parts, power tools, security systems, and other consumer goods and industrial products. Bosch is one of the largest suppliers of automotive parts in the world and has a presence in over 60 countries."
+        },
+        {
+            "question": "Where is Russia?",
+            "answer": "Russia is located in northern Asia and eastern Europe, spanning across both continents. It is the largest country in the world by land area, covering more than 17 million square kilometers. It shares borders with many countries, including China, Mongolia, Kazakhstan, Ukraine, Belarus, Finland, and Norway, among others. Its capital city is Moscow."
+        },
+        {
+            "question": "Who is Dong?",
+            "answer": "There are likely many people with the name Dong. It is a common Chinese surname and given name. Without more specific information, it is difficult to determine which Dong you are referring to."
+        },
+        {
+            "question": "hi",
+            "answer": "Hello! How can I assist you today?"
         }
     ]
 }
