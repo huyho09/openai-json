@@ -71,6 +71,14 @@
         {
             "question": "hello",
             "answer": "Hello! How can I assist you today?"
+        },
+        {
+            "question": "Who is Tom Cruise?",
+            "answer": "Tom Cruise is a highly successful American actor and producer, known for his roles in blockbuster films such as Top Gun, Mission: Impossible, and Jerry Maguire. He is one of the highest-paid actors in the world and has received numerous accolades for his work in the entertainment industry. In addition to his acting career, Cruise is also known for his involvement in the Church of Scientology."
+        },
+        {
+            "question": "Describe a cat",
+            "answer": "A cat is a small, carnivorous mammal with a sleek body, sharp retractable claws, and a long tail. They have soft fur that can come in a variety of colors and patterns. Cats have agile bodies that allow them to move swiftly and with grace. They are known for their independent nature, curiosity, and playful demeanor. Cats have sharp senses, including excellent hearing and eyesight, which make them skilled hunters. They are also known for their ability to purr when content and meow to communicate with their owners. Overall, cats are beloved pets that bring joy and companionship to many people."
         }
     ]
 }
