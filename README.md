@@ -13,17 +13,48 @@ python==3.11
 ### How to run JS Source
 
 1. Open the project folder in VSC
-2. Use cli: **cd back-end**
-3. Use cli: **npm i**
-4. Use cli: **node server.js**
+2. Use cli: 
+```cd back-end```
+3. Use cli: 
+```npm i```
+4. Use cli: 
+```node server.js```
 5. Start Live Server using **index.html** in front-end folder
 6. Install [Allow CORS: Access-Control-Allow-Origin](https://chromewebstore.google.com/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf)
 
-### How to run Python source
-1. Create venv using conda: **conda env create -f environment.yml**
-2. Using Cli: **python main.py**
+### How to run Python source with Anaconda (deprecated)
+~~1. Create venv using conda: 
+```conda env create -f environment.yml```
+2. Using Cli: 
+```python main.py```
 3. Install [Allow CORS: Access-Control-Allow-Origin](https://chromewebstore.google.com/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf)
-4. Start Live Server using **index.html** inside `openai-py` folder
+4. Start Live Server using **index.html** inside `openai-py` folder~~
+
+### [UPDATE] How to run Python with .venv
+1. Deactivate your running conda env: 
+```conda deactivate <your_env_name>```
+2. Remove conda env: 
+```**conda env remove --name <your_env_name>```
+3. Use cli: 
+```cd openai-py```
+4. Use cli to create virtual environment:
+```
+python -m venv <your_env_name>
+# prefer using .venv because the venv is already in gitignore to avoid pushing the whole venv
+python -m venv .venv
+```
+5. Activate venv by using cli:
+```
+source .venv/bin/activate
+```
+6. Install all libs in requirements.txt
+```
+# On Windows
+pip install -r requirements.txt
+# On MacOS
+python -m pip install -r requirements.txt
+```
+7. Deactivate .venv using `deactivate`
 
 ### Idea
 
