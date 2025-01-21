@@ -51,6 +51,26 @@
         {
             "question": "hi",
             "answer": "Hello! How can I assist you today?"
+        },
+        {
+            "question": "Who is Huy?",
+            "answer": "There is not enough information provided to determine who Huy is. It could be a person's name, a place, or an abbreviation for something."
+        },
+        {
+            "question": "Who is Superman?",
+            "answer": "Superman is a fictional superhero who appears in American comic books published by DC Comics. He is a Kryptonian, an alien from the planet Krypton who was sent to Earth as a baby and raised as Clark Kent by human parents. Superman possesses superhuman strength, speed, and endurance, as well as the ability to fly and shoot heat vision from his eyes. He fights for truth, justice, and the American way, serving as a symbol of hope and inspiration to people around the world. Superman was created by writer Jerry Siegel and artist Joe Shuster, and first appeared in Action Comics #1 in 1938."
+        },
+        {
+            "question": "who is batman?",
+            "answer": "Batman is a fictional superhero character created by artist Bob Kane and writer Bill Finger. He first appeared in Detective Comics #27 in 1939 and has since become one of the most iconic and enduring superheroes in comic book history. Batman is alter ego of Bruce Wayne, a wealthy businessman who witnessed the murder of his parents as a child and vowed to fight crime in Gotham City. He uses his intellect, martial arts skills, gadgets, and detective abilities to battle villains such as the Joker, Catwoman, and the Penguin."
+        },
+        {
+            "question": "Who is Wonder Woman?",
+            "answer": "Wonder Woman is a fictional superhero character created by psychologist William Moulton Marston and artist Harry G. Peter. She first appeared in All Star Comics #8 in October 1941, published by DC Comics. Wonder Woman is also known as Princess Diana of Themyscira and is an Amazon warrior princess with superhuman strength, speed, and agility, as well as a range of other powers and abilities. She is often depicted fighting for justice, peace, love, and gender equality."
+        },
+        {
+            "question": "hello",
+            "answer": "Hello! How can I assist you today?"
         }
     ]
 }

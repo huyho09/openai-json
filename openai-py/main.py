@@ -1,20 +1,23 @@
 import os
 
 # Set proxy environment variables
-os.environ['http_proxy'] = 'http://127.0.0.1:3128'
-os.environ['https_proxy'] = 'http://127.0.0.1:3128'
+#os.environ['http_proxy'] = 'http://127.0.0.1:3128'
+#os.environ['https_proxy'] = 'http://127.0.0.1:3128'
 
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import json
 import openai
+from dotenv import load_dotenv
+
+load_dotenv() # Load environment variables from .env file load_dotenv()
 
 app = Flask(__name__)
 
 # Allow all CORS
 CORS(app, resources={r"/*": {"origins": "http://127.0.0.1:5500"}})
 
-openai.api_key = os.getenv("OPENAI_API_KEY", 'OPENAI_API_KEY')
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Initial data.json
 try:
