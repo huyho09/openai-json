@@ -62,7 +62,7 @@ class Chatbot {
         .catch(error => console.error('Error:', error));
     }
 
-    // Save edited response
+    // Save edited response to data.json
     saveEditedResponse() {
         const updatedResponse = document.getElementById('edit-response').value.trim();
         if (!updatedResponse) return;
@@ -86,7 +86,7 @@ class Chatbot {
     }
 }
 
-// Instantiate the Chatbot class
+// Init the Chatbot class
 document.addEventListener('DOMContentLoaded', () => {
     new Chatbot('.chat-box', 'user-input', 'send-btn', 'save-btn');
 });
