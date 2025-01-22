@@ -45,7 +45,8 @@ python -m venv .venv
 ```
 5. Activate venv by using cli:
 ```
-source .venv/bin/activate
+.\.venv\Scripts\activate (Windows)
+source .venv/bin/activate (MacOS)
 ```
 6. Install all libs in requirements.txt
 ```
